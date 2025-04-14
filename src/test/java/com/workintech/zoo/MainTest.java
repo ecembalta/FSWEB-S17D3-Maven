@@ -94,8 +94,8 @@ class MainTest {
         // Assertions to ensure fields are set correctly
         assertEquals(1, koala.getId());
         assertEquals("Kara", koala.getName());
-        assertEquals(20.0, koala.getSleepHour());
-        assertEquals(15.0, koala.getWeight());
+        assertEquals(15.0, koala.getSleepHour());
+        assertEquals(20.0, koala.getWeight());
         assertEquals("Female", koala.getGender());
     }
 
